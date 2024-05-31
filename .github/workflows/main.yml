@@ -1,0 +1,11 @@
+name: firstremoteflow
+on: workflow_dispatch
+jobs:
+  job-1
+    runs-on: ubuntu-latest
+    steps:
+      - name: Bash Task1
+        run: |
+            who
+            uname -a
+            nslookup https://chatgpt.com/ 
