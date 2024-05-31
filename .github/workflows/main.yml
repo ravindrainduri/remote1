@@ -1,11 +1,14 @@
 name: firstremoteflow
 on: workflow_dispatch
 jobs:
-  job-1
+  j1:
     runs-on: ubuntu-latest
     steps:
-      - name: Bash Task1
+      - name: Bash Step1
         run: |
+            echo "HELLO INDURI IN GIT HUB"
             who
-            uname -a
-            nslookup https://chatgpt.com/ 
+            nslookup https://chatgpt.com/
+            fdisk -l
+    
+  
