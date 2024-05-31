@@ -8,7 +8,7 @@ jobs:
         run: |
             echo "HELLO INDURI IN GIT HUB"
             who
-            nslookup https://chatgpt.com/
+            # nslookup https://chatgpt.com/
             fdisk -l
     
   
